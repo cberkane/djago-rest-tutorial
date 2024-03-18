@@ -1,5 +1,8 @@
 from django.contrib import admin
-from shop.models import Category, Product, Article
+
+from shop.models import Category
+from shop.models import Product
+from shop.models import Article
 
 
 class CategoryAdmin(admin.ModelAdmin):
